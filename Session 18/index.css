@@ -1,0 +1,167 @@
+body {
+	background: #5d802c;
+	color: #878785;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: 0;
+}
+#header {
+	background: #ffffff;
+	width: 100%;
+}
+#header div {
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+#header div img {
+	float: left;
+	margin-top: 15px;
+}
+#header div ul {
+	float: right;
+	list-style: none;
+	margin: 40px 0 0;
+	overflow: hidden;
+	padding: 0;
+}
+#header div ul li {
+	float: left;
+	padding: 0 5px;
+}
+#header div ul li.current a {
+	background: url(../images/bg-button.gif) no-repeat 0 0;
+}
+#header div ul li a {
+	color: #495531;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	width: 90px;
+}
+#header div ul li a:hover {
+	color: #82ae3f;
+}
+#content {
+	background: #7cc116 url(../images/bg-content.gif) repeat-x top left;
+	color: #67695e;
+}
+#content div {
+	background: url(../images/bg-homepage.jpg) no-repeat top center;
+	min-height: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+#content div div {
+	background: none;
+	float: right;
+	margin: 500px 0 0;
+	min-height: 0;
+	padding-right: 10px;
+	width: 460px;
+}
+#content div div h1, #content div div h2 {
+	color: #382d00;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+}
+#content div div h2 {
+	padding-top: 25px;
+}
+#content div div p {
+	line-height: 23px;
+	padding-top: 5px;
+	text-align: justify;
+}
+
+/*About html editing */
+
+.aboutbox{
+	background:#ffffff url(./images/bg-content2.gif) repeat-x bottom center;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	width: 960px;
+
+}
+
+#aboxcontent {
+	padding-top: 10px;  
+	overflow: hidden;
+	width: auto;
+}
+
+#sidebar{
+	float:left;
+	padding-top: 0;
+	width: 320px;
+}
+
+#sidebar h3{
+	color: #9BAF58;        /*styling H3*/
+	font-size: 25px;
+	font-weight: normal;
+	margin: 0;
+	text-indent: 20px;
+}
+
+#sidebar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul li{
+	height: 205px;
+	padding: 15px 55px 0 35px;
+}
+
+#vision{
+	background: url(./images/bg-sidebar-item1.jpg) no-repeat;
+}
+
+#mission{
+	background: url(./images/bg-sidebar-item2.jpg) no-repeat;
+}
+
+#wecare{
+	background: url(./images/bg-sidebar-item3.jpg) no-repeat
+}
+
+#ov {
+	color: #FFFFFF;
+	display: block;
+	font-size: 25px;
+	font-style: italic;
+}
+
+#ovcontent{
+	line-height: 23px;
+	margin: 0;
+	padding-top: 0;
+}
+
+#aside span{
+	color: #fc9500;
+	display: block;
+	font-size: 20px;
+	padding-top: 50px;
+}
+
+#aside p{
+	margin: 0;
+	line-height: 23px;
+	padding-top: 5px;
+	text-align: justify;
+}
