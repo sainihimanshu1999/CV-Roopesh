@@ -165,3 +165,97 @@ img {
 	padding-top: 5px;
 	text-align: justify;
 }
+
+
+/*footer editing */
+
+#footer{
+	padding-top: 20px;
+}
+
+#footer div{
+	margin:0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+
+#footer div div{
+	float:left;
+	margin-left: 65px;
+	width:175px;
+}
+
+
+#socialmedia span {
+	color: #364818;
+	display: block;  /*break line after Follow Us*/
+	font-size: 18px;
+	padding-bottom: 20px;  /*space below follow us*/
+}
+/* Styling Link Text*/
+#socialmedia a {
+	color: #314810;
+	display: block;
+	margin-bottom: 15px;
+	text-decoration: none;
+	text-indent: 70px;
+}
+
+#socialmedia a:hover {
+	color: #82ae3f;
+}
+
+
+#socialmedia a.facebook {
+	background: url(./images/facebook.png) no-repeat ;
+	line-height: 41px;
+}
+#socialmedia a.subscribe {
+	background: url(./images/subscribe.jpg) no-repeat ;
+	line-height: 41px;
+}
+#socialmedia a.twitter {
+	background: url(./images/twitter.png) no-repeat ;
+	line-height: 41px;
+}
+
+#socialmedia a.instagram {
+	background: url(./images/insta.jpg) no-repeat ;
+	line-height: 41px;
+}
+
+#mainfooter {
+	float: right;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 640px;
+}
+
+#mainfooter li {
+	background: url(./images/bg-footer-item.jpg) no-repeat;
+	float: left;
+	height: 251px;
+	width: 320px;
+}
+
+#mainfooter li p {
+	color: #ffffff;
+	line-height: 23px;
+	margin: 0;
+	padding: 0 35px;
+	text-align: justify;
+}
+
+#footer p.footnote {
+	color: #2a460c;
+	padding: 5px 0;
+	text-align: center;
+}
+
+#footer p.footnote a {
+	color: #314810;
+	text-decoration:none;
+} 
+
