@@ -21,3 +21,11 @@ xo('Himanshu','22')
 
 roopesh(3,4,5)
 roopesh(88,2390,89)
+
+
+function ok(a,b){
+    return (a+b)
+}
+
+
+ok(2,3)
